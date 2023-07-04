@@ -1,0 +1,89 @@
+body{
+    background : #282a36;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    width: 650px;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+}
+footer .seven{
+    color: white;
+}
+header{
+    /* display: flex; */
+    flex-grow: 1;
+}
+header h1{
+    font-size: 70px;
+    flex-grow: inherit;
+    color: white;
+}
+header a{
+    margin-right: 16px;
+    text-decoration: none;
+    /* display: flex; */
+    align-items: center;
+    color: red;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+ 
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+.doThis{
+    color: aqua;
+}
+.here{
+    color: aqua;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); */
+    /* border-radius: 25px; */
+    /* background: red; */
+    /* padding: 5px; */
+    overflow: hidden;
+    max-width: 250px;
+}
+.inpF{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    border: 0;
+    padding: 0.8em;
+}
+.inpF:focus::placeholder{
+    color: blue;
+    opacity: 0.85;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: 18px;
+    color: white;
+}
+li{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: 18px;
+    color: white;
+}
+footer{
+    /* display: flex; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0vh;
+    border-top: 2px solid #654646;
+    /* flex-wrap: initial; */
+    
+
+}
