@@ -25,3 +25,7 @@ Note: You need to create account for getting api keys [incase in need of changin
 ## Deployment
 The app is deployed on vercel platform.
 On the top right corner of the screen you can see the link. click it to go there.
+
+## Test
+![test](https://github.com/joshi248/VortexVision/assets/109964271/8039b6a8-4fd1-46be-a1c1-2e1d2df66bd5)
+
