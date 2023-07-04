@@ -27,5 +27,6 @@ The app is deployed on vercel platform.
 On the top right corner of the screen you can see the link. click it to go there.
 
 ## Test
-![test](https://github.com/joshi248/VortexVision/assets/109964271/8039b6a8-4fd1-46be-a1c1-2e1d2df66bd5)
+![test](https://github.com/joshi248/VortexVision/assets/109964271/f6e81513-b173-4474-802f-b2ba1efc730e)
+
 
