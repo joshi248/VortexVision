@@ -1,22 +1,22 @@
 {
-  "name": "climatecompass",
+  "name": "vortexvision",
   "version": "1.0.0",
   "description": "A weather determination website",
   "main": "index.js","type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joshi248/ClimateCompass.git"
+    "url": "git+https://github.com/joshi248/VortexVision.git"
   },
   "author": "joshi248",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joshi/ClimateCompass/issues"
+    "url": "https://github.com/joshi/VortexVision/issues"
   },
-  "homepage": "https://github.com/joshi248/ClimateCompass#readme",
+  "homepage": "https://github.com/joshi248/VortexVision#readme",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.2",

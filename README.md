@@ -4,8 +4,8 @@ This web app helps you to determine the weather (temperature and humidity mainly
 
 # TechStack
 
-This app is created using `npm install express` . 
-API Used
+This app is created using `npm i express` . 
+APIs Used
  - Weather stack
  - MapBox
 
@@ -19,6 +19,8 @@ Clone the repository in your computer.[ You can also download the zip file]
 
 You can now run the server using `node index.js` in your terminal
 > Default link -> `localhost:3000` in your browser
+
+Note: You need to create account for getting api keys [incase in need of changing them].
 
 ## Deployment
 The app is deployed on vercel platform.
