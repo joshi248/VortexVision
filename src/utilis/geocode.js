@@ -11,10 +11,13 @@ var geocode = (address, callback) => {
           callback('no search results found', undefined);
 
           else{
+
               var data ={
+
                   location : response.body.features[0].place_name,
                   lattitude : response.body.features[0].center[1],
                   longitude : response.body.features[0].center[0]
+                  
               }
 
               callback(undefined,data);

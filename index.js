@@ -4,9 +4,12 @@ import hbs from 'hbs';
 import { fileURLToPath } from 'url';
 
 var app = express();
-const __filename = fileURLToPath(import.meta.url);
 
+// https://flaviocopes.com/fix-dirname-not-defined-es-module-scope/ fix for __dirname
+const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+
 var pathdir = path.join(__dirname,'./public');
 var viewpath = path.join(__dirname,'./views');
 var partialpath = path.join(__dirname,'./views/partials');
