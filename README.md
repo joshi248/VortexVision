@@ -1,4 +1,4 @@
-# ClimateCompass
+# VortexVision
 This web app helps you to determine the weather (temperature and humidity mainly) of a city in any part of the world.
 **Just** type the name of the city you want to get the weather of and it will show.
 
@@ -13,11 +13,10 @@ API Used
 
 Clone the repository in your computer.[ You can also download the zip file]
 
-    gh repo clone joshi248/SkyWatch
- now you would need to install dependencies. to do that run,
- 
+    gh repo clone joshi248/VortexVision
+ now you would need to install dependencies. to do that run, `npm install` in your teminal.
 
-    npm install
+
 You can now run the server using `node index.js` in your terminal
 > Default link -> `localhost:3000` in your browser
 
