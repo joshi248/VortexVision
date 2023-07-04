@@ -24,6 +24,8 @@ export default forecast
 //     console.log('data ', data);
 // })
 
+// Errors
+// module.exports = forecast;
 
 
 

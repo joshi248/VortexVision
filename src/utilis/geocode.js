@@ -25,7 +25,7 @@ var geocode = (address, callback) => {
 
 export default geocode
 
-// geocode("new jersey", (error, data) =>{
+// geocode("new delhi", (error, data) =>{
 //     console.log('error ', error);
 //     console.log('data ', data);
 // })
