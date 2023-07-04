@@ -20,9 +20,6 @@ app.set('views', viewpath);
 hbs.registerPartials(partialpath);
 
 
-// var geocode = require('./src/utilis/geocode');
-// var forecast = require('./src/utilis/forecast');
-
 import geocode from './src/utilis/geocode.js';
 import forecast from './src/utilis/forecast.js';
 
