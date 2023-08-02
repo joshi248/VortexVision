@@ -28,7 +28,7 @@ import forecast from './src/utilis/forecast.js';
 
 app.get('',(req,res)=>{
     res.render('index',{
-        title: 'Weather App',
+        title: 'Vortex Vision',
         name: 'User',
         age : 20
     })
