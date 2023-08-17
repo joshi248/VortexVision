@@ -4,7 +4,7 @@ var forecast = (lattitude,longitude, callback) => {
 
     request({url , json : true}, (error, response)=>{
         if(error)
-         callback('unable to connect to server',undefined);
+         callback('Please reload the page. The server might response!!',undefined);
 
         //  else if(response.body.location.name === null)
         //   callback('no search results found', undefined);
